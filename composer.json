@@ -1,5 +1,5 @@
 {
-    "name": "hs/fcm",
+    "name": "heyharpreetsingh/fcm",
     "description": "Laravel package to send push notification on mobile(android, ios), and web using Firebase Cloud Messaging.",
     "keywords": ["framework", "laravel", "fcm", "Firebase Cloud Messaging"],
     "version": "1.0.0",
