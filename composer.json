@@ -23,7 +23,5 @@
         "psr-4": {
             "Heyharpreetsingh\\Fcm\\": "src/"
         }
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    }
 }
