@@ -1,0 +1,29 @@
+{
+    "name": "hs/fcm",
+    "description": "Laravel package to send push notification on mobile(android, ios), and web using Firebase Cloud Messaging.",
+    "keywords": ["framework", "laravel", "fcm", "Firebase Cloud Messaging"],
+    "version": "1.0.0",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/heyharpreetsingh/fcm/issues",
+        "source": "https://github.com/heyharpreetsingh/fcm"
+    },
+    "authors": [
+        {
+            "name": "Harpreet Singh",
+            "email": "heyharpreetsingh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*",
+        "google/auth": "^1.41"
+    },
+    "autoload": {
+        "psr-4": {
+            "Heyharpreetsingh\\Fcm\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
