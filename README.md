@@ -46,10 +46,10 @@ use Heyharpreetsingh\FCM\Facades\FCMFacade;
 
 FCMFacade::send([
    "message" => [
-        "token":"bk3RNwTe3H0:CI2k_HHwgIpoDKCIZvvDMExUdFQ3P1...", //device token
-        "notification": [
-                "body":"This is an FCM notification message!",
-                "title":"FCM Message"
+        "token" => "bk3RNwTe3H0:CI2k_HHwgIpoDKCIZvvDMExUdFQ3P1...", //device token
+        "notification" => [
+                "body" => "This is an FCM notification message!",
+                "title" => "FCM Message"
         ]
     ]
 ]);
